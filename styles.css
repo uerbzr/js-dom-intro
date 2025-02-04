@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+.cell {
+  background-color: blue;
+}
+.symbol {
+  color: white;
+  text-align: center;
+  font-size: 200px;
+}
+.container {
+  /* this centers */
+  width: 900px;
+  margin: auto;
+
+  margin-top: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 300px); /* sets 3 rows */
+  grid-auto-rows: 300px; /* sets height */
+  gap: 10px; /* gap between cells */
+}
